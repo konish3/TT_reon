@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "0",
+      "name": "",
+      "email": "",
+      "password": "",
+      "profession": ""
+    },
+    {
+      "id": 1,
+      "name": "Илья",
+      "email": "ilya.konyshev0@mail.ru",
+      "password": "dsadsa"
+    }
+  ],
+  "projects": [
+    {
+      "id": "0",
+      "name": "Разработка калькулятора",
+      "description": "Проект разрабатывается совместно с командой разработчиков в целях упрощения математических вычислений",
+      "languages": "JavaScript, HTML, CSS",
+      "stage": "Начало",
+      "tasks": [
+        {
+          "id": 0,
+          "name": "создать проект",
+          "createAt": "24.09.2024",
+          "stage": "start"
+        },
+        {
+          "id": 1,
+          "name": "создать проект",
+          "createAt": "25.09.2024",
+          "stage": "complete"
+        }
+      ]
+    },
+    {
+      "id": "0",
+      "name": "Разработка калькулятора",
+      "description": "Проект разрабатывается совместно с командой разработчиков в целях упрощения математических вычислений",
+      "languages": "JavaScript, HTML, CSS",
+      "stage": "Начало",
+      "tasks": [
+        {
+          "id": 0,
+          "name": "создать проект",
+          "createAt": "24.09.2024",
+          "stage": "start"
+        },
+        {
+          "id": 1,
+          "name": "создать проект",
+          "createAt": "25.09.2024",
+          "stage": "complete"
+        }
+      ]
+    }
+  ]
+}

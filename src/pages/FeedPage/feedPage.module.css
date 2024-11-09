@@ -1,0 +1,14 @@
+.mainContent {
+  display: flex;
+  gap: 30px;
+}
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: rgb(71, 83, 107);
+}

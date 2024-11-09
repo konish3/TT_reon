@@ -1,0 +1,75 @@
+.cardList {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 1 0 65%;
+
+  position: relative;
+}
+.card {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #e1e2e3;
+  border-radius: 25px;
+  box-shadow: 2px 9px 29px 0px rgba(34, 60, 80, 0.2);
+  padding: 30px 20px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 0 100%;
+  text-align: start;
+  max-width: 400px;
+  gap: 20px;
+  h4 {
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #4d80e6;
+  }
+  p {
+    max-width: 400px;
+  }
+}
+.description {
+  font-size: 18px;
+  color: rgb(71, 83, 107);
+}
+.language {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.stage {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 25%;
+  span {
+    font-size: 22px;
+    color: #4d80e6;
+  }
+}
+.tasks {
+  flex: 1 1 80%;
+  text-align: start;
+  span {
+    font-size: 22px;
+    color: #4d80e6;
+    margin-bottom: 20px;
+  }
+}
+.tasksList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  li {
+    font-size: 16px;
+  }
+}

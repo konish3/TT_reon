@@ -1,0 +1,92 @@
+.project {
+  /* background-color: #4d80e6; */
+  background: rgb(62, 99, 167);
+  background: linear-gradient(
+    0deg,
+    rgba(62, 99, 167, 1) 0%,
+    rgba(77, 131, 230, 1) 51%
+  );
+  border-radius: 30px;
+  padding: 40px;
+}
+.content {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 30px 30px 30px;
+  box-shadow: 0px 5px 10px 7px rgba(34, 60, 80, 0.2) inset;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(71, 83, 107);
+  margin: 20px 0 60px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h2 {
+    font-size: 34px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 20px;
+    max-width: 500px;
+  }
+  span {
+    font-size: 20px;
+  }
+}
+.author {
+  display: flex;
+}
+.nameAuthor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20px;
+  h4 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+.tasks {
+  h3 {
+    font-size: 34px;
+    margin-bottom: 40px;
+  }
+}
+.table {
+  width: 100%;
+  color: rgb(71, 83, 107);
+
+  display: flex;
+  gap: 40px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nameColumn {
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 3px solid #e1e2e3;
+
+  font-size: 20px;
+}
+
+.tasksField {
+  flex: 1 0 430px;
+}
+.tasksList {
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

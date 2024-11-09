@@ -1,0 +1,14 @@
+.backButton {
+  border-radius: 10px;
+  background-color: #4d80e6;
+  width: 40px;
+  height: 40px;
+}
+.arrow {
+  width: 20px;
+  height: 20px;
+  transform: rotate(180deg);
+  polygon {
+    fill: white;
+  }
+}

@@ -1,0 +1,64 @@
+.header {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #e1e2e3;
+  border-radius: 0 0 25px 25px;
+  box-shadow: 2px 9px 29px 0px rgba(34, 60, 80, 0.2);
+}
+.content {
+  display: flex;
+  align-items: center;
+  padding: 30px 20px;
+}
+.navigate {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 auto;
+  gap: 15px;
+  h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    a {
+      color: #4d80e6;
+    }
+  }
+  nav {
+    display: flex;
+    align-items: center;
+  }
+}
+.menuList {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  li {
+    padding: 7px 10px;
+    border-radius: 7px;
+  }
+  li:hover {
+    background-color: rgb(235, 238, 244);
+    transition: all 0.5s ease;
+  }
+  a {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(71, 83, 107);
+  }
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  button {
+    background-color: transparent;
+  }
+}
+.logOut {
+  font-size: 16px;
+  color: red;
+  border: 1px solid #e1e2e3;
+  border-radius: 5px 10px;
+
+  padding: 5px 10px;
+}
